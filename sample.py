@@ -12,4 +12,6 @@ def search(alist, num):
   for val in alist:
     if num == val:
       return True
+    else:
+      return False
   return False
