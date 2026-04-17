@@ -6,7 +6,7 @@ def search(alist, num):
   Postcondition: Return True if num exists otherwise False
   """
 
-  if len(alist) == 0:
+  if len(alist) < 1:
     return False
   
   for val in alist:
