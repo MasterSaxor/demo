@@ -6,12 +6,10 @@ def search(alist, num):
   Postcondition: Return True if num exists otherwise False
   """
 
-  if alist == []:
+  if len(alist) == 0:
     return False
   
   for val in alist:
     if num == val:
       return True
-    else:
-      return False
   return False
